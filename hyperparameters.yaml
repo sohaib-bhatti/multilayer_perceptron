@@ -1,0 +1,13 @@
+hidden_layers:
+    num_hidden_layers: 1
+    hidden_layer_width: 256
+
+gradients:
+    training_rate: 0.05
+    beta1: 0.99
+    beta2: 0.999
+    gamma: 0.001
+
+batch:
+    batch_size: 2048
+    num_epochs: 10
